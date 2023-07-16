@@ -1,0 +1,50 @@
+body {
+    background-image: url("stars.gif");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    background: linear-gradient(125.83deg, rgb(57, 45, 209) 0%, rgb(169, 27, 120) 99.09%);
+    width: 50%;
+    height: 50%;
+    max-width: 60%;
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+h1 {
+    margin: 10px 0 ;
+    color: whitesmoke;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+button {
+    border-color: white;
+    padding:10px 0;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+p{
+    font-weight: bold;
+}
+#increment-btn {
+    background: #67BAA7;
+}
+#save-btn {
+    background: #814EB2;
+}
+
